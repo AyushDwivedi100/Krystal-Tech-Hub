@@ -47,7 +47,13 @@ The following environment variables are configured for the contact form:
 - `SMTP_USERNAME`: krystaltechhub@gmail.com
 - `RECEIVER_EMAIL`: dharshit265@gmail.com
 
-**SMTP_PASSWORD**: This must be set as a secret for the contact form to work. The user needs to provide their Gmail App Password via the Replit secrets interface.
+### Required Secrets
+**SMTP_PASSWORD**: This is a required secret for the contact form to work. You must provide your Gmail App Password (not your regular Gmail password) as a secret. To generate a Gmail App Password:
+1. Go to your Google Account settings
+2. Enable 2-factor authentication if not already enabled
+3. Go to Security → 2-Step Verification → App passwords
+4. Generate a new app password for "Mail"
+5. Add it as the SMTP_PASSWORD secret in Replit
 
 ### Workflow
 - **Name**: PHP Web Server
@@ -74,6 +80,8 @@ The following environment variables are configured for the contact form:
   - Created .gitignore for PHP project
   - Set up environment variables for SMTP
   - Configured deployment for autoscale
+  - Removed hard-coded SMTP password from contact-handler.php (security fix)
+  - Updated to require SMTP_PASSWORD as a secret instead of fallback value
   - Project ready for development and deployment
 
 ## User Preferences

@@ -13,12 +13,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $smtpHost = getenv('SMTP_HOST') ?: 'smtp.gmail.com';
         $smtpUsername = getenv('SMTP_USERNAME') ?: 'krystaltechhub@gmail.com';
-        $smtpPassword = getenv('SMTP_PASSWORD') ?: 'wywyktofecayexpu';
+        $smtpPassword = getenv('SMTP_PASSWORD');
         $smtpPort = getenv('SMTP_PORT') ?: 587;
         $receiverEmail = getenv('RECEIVER_EMAIL') ?: 'dharshit265@gmail.com';
         
         if (empty($smtpPassword)) {
-            error_log('SMTP password not configured - SMTP_PASSWORD environment variable is missing');
+            error_log('SMTP password not configured - SMTP_PASSWORD secret is missing');
             throw new Exception('Email service configuration error. Please contact the administrator.');
         }
 
