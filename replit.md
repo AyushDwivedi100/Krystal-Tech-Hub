@@ -83,7 +83,57 @@ The following environment variables are configured for the contact form:
 3. After uploading to Hostinger, clear any server-side cache and browser cache
 4. Contact form requires SMTP_PASSWORD to be set in hosting environment variables
 
+## SEO Configuration
+The website is optimized for search engines with the following features:
+
+### Meta Tags (All Pages)
+- **Title tags**: Unique, keyword-rich titles for each page
+- **Meta descriptions**: Compelling descriptions with calls-to-action
+- **Keywords**: Industry-relevant keywords for each page
+- **Canonical URLs**: All pages use `https://krystaltechhub.in` (no www, no .html)
+- **Robots**: `index, follow` on all pages except 404
+
+### Open Graph Tags
+- `og:type`: website
+- `og:site_name`: Krystal Tech Hub
+- `og:locale`: en_IN
+- `og:image`: Full URL with width (1200) and height (630)
+- `og:url`: Clean canonical URLs
+
+### Twitter Cards
+- `twitter:card`: summary_large_image
+- `twitter:site`: @krystaltechhub
+- Image alt text included
+
+### Structured Data (JSON-LD)
+- **Homepage**: Organization + WebSite schemas with search action
+- **About**: AboutPage with embedded Organization
+- **Contact**: ContactPage with embedded LocalBusiness (includes geo, hours)
+- **Services/Products**: Organization schema
+
+### robots.txt
+- Allows all crawlers
+- Disallows utility files (contact-handler.php, router.php)
+- References sitemap location
+
+### sitemap.xml
+- Clean URLs (no .html extensions)
+- Priority and changefreq hints
+- Updated lastmod dates
+
 ## Recent Changes
+- **December 1, 2025**: Comprehensive SEO improvements
+  - Updated sitemap.xml with clean URLs and current dates
+  - Added changefreq and priority to sitemap entries
+  - Enhanced robots.txt with crawl directives
+  - Added og:site_name, og:locale, og:image dimensions to all pages
+  - Added Twitter @site handle to all pages
+  - Improved JSON-LD structured data with page-specific schemas
+  - Added LocalBusiness schema with geo coordinates and business hours
+  - Standardized all URLs to https://krystaltechhub.in (no www)
+  - Added canonical URLs to about.php and contact.php
+  - Removed placeholder social media links
+
 - **December 1, 2025**: Initial Replit setup
   - Configured PHP workflow with port 5000
   - Created .gitignore for PHP project
