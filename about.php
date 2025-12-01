@@ -3,60 +3,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Responsive viewport for mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Primary SEO meta tags -->
-    <title>
-      About Us - Krystal Tech Hub | Industrial Electrical & Automation Experts
-    </title>
-    <meta
-      name="description"
-      content="Krystal Tech Hub delivers excellence in industrial electrical, automation, and instrumentation services across India. Learn about our expert team, services, and commitment to quality."
-    />
-    <meta
-      name="keywords"
-      content="Industrial Electrical, Automation, Instrumentation, Power Panels, Site Commissioning, Maintenance Contracts, Krystal Tech Hub"
-    />
+    <!-- Primary SEO Meta Tags -->
+    <title>About Us - Krystal Tech Hub | Industrial Electrical & Automation Experts in Prayagraj</title>
+    <meta name="description" content="Krystal Tech Hub delivers excellence in industrial electrical, automation, and instrumentation services across India. Learn about our expert team, services, and commitment to quality in Prayagraj, UP." />
+    <meta name="keywords" content="Industrial Electrical, Automation, Instrumentation, Power Panels, Site Commissioning, Maintenance Contracts, Krystal Tech Hub, Prayagraj, Uttar Pradesh, India" />
     <meta name="author" content="Krystal Tech Hub" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://krystaltechhub.in/about" />
 
     <!-- Favicon -->
-    <link
-      rel="icon"
-      href="assets/img/favicon/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png" />
 
-    <!-- Tailwind CSS CDN (load early for styles) -->
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- AOS CSS for animation on scroll -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Open Graph for social media sharing -->
-    <meta property="og:title" content="About Us - Krystal Tech Hub" />
-    <meta
-      property="og:description"
-      content="Krystal Tech Hub: Experts in industrial electrical and automation solutions across India."
-    />
-    <meta property="og:image" content="/assets/img/krystaltechhub.jpg" />
-    <meta property="og:url" content="https://yourwebsite.com/about.html" />
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Krystal Tech Hub" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="About Us - Krystal Tech Hub | Industrial Automation Experts" />
+    <meta property="og:description" content="Krystal Tech Hub: Experts in industrial electrical and automation solutions across India. Trusted since inception." />
+    <meta property="og:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://krystaltechhub.in/about" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About Us - Krystal Tech Hub" />
-    <meta
-      name="twitter:description"
-      content="Delivering excellence in industrial electrical, automation, and instrumentation services across India."
-    />
-    <meta name="twitter:image" content="/assets/img/krystaltechhub.jpg" />
+    <meta name="twitter:site" content="@krystaltechhub" />
+    <meta name="twitter:title" content="About Us - Krystal Tech Hub | Industrial Automation Experts" />
+    <meta name="twitter:description" content="Delivering excellence in industrial electrical, automation, and instrumentation services across India." />
+    <meta name="twitter:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Krystal Tech Hub",
+        "description": "Krystal Tech Hub delivers excellence in industrial electrical, automation, and instrumentation services across India.",
+        "url": "https://krystaltechhub.in/about",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "Krystal Tech Hub",
+          "url": "https://krystaltechhub.in",
+          "logo": "https://krystaltechhub.in/assets/img/krystaltechhub.jpg",
+          "foundingDate": "2023",
+          "founders": [
+            {"@type": "Person", "name": "Ayush Shukla"},
+            {"@type": "Person", "name": "Shatyam Shukla"}
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "G T Road, Handia, Ward No. 09, Near Manas Hall",
+            "addressLocality": "Prayagraj",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221503",
+            "addressCountry": "IN"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-8808408802",
+            "contactType": "customer service",
+            "areaServed": "IN",
+            "availableLanguage": ["English", "Hindi"]
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/krystaltechhub",
+            "https://www.facebook.com/krystaltechhub"
+          ]
+        }
+      }
+    </script>
   </head>
   <body class="text-gray-800">
     <?php include __DIR__ . '/includes/header.php'; ?>

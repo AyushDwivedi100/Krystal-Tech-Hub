@@ -37,28 +37,23 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://krystaltechhub.in/products" />
 
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Our Products - Krystal Tech Hub" />
-    <meta
-      property="og:description"
-      content="Explore Krystal Tech Hub's range of industrial products including electrical panels, automation components, and instrumentation devices."
-    />
+    <meta property="og:site_name" content="Krystal Tech Hub" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="Our Products - Krystal Tech Hub | Industrial Equipment & Components" />
+    <meta property="og:description" content="Explore Krystal Tech Hub's range of industrial products including electrical panels, automation components, instrumentation devices, and power distribution equipment." />
     <meta property="og:url" content="https://krystaltechhub.in/products" />
-    <meta
-      property="og:image"
-      content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
+    <meta property="og:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Our Products - Krystal Tech Hub" />
-    <meta
-      name="twitter:description"
-      content="Explore Krystal Tech Hub's range of industrial products including electrical panels, automation components, and instrumentation devices."
-    />
-    <meta
-      name="twitter:image"
-      content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
+    <meta name="twitter:site" content="@krystaltechhub" />
+    <meta name="twitter:title" content="Our Products - Krystal Tech Hub | Industrial Equipment" />
+    <meta name="twitter:description" content="Explore Krystal Tech Hub's range of industrial products including electrical panels, automation components, and instrumentation devices." />
+    <meta name="twitter:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
 
     <script type="application/ld+json" defer>
       {

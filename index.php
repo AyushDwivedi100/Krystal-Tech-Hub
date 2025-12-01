@@ -39,35 +39,24 @@
     />
 
     <!-- Open Graph / Facebook -->
-    <meta
-      property="og:title"
-      content="Krystal Tech Hub | Industrial Automation & Power Panels"
-    />
-    <meta
-      property="og:description"
-      content="Powering Industries with advanced automation and electrical solutions. Get in touch for custom engineering projects in India."
-    />
-    <meta
-      property="og:image"
-      content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
-    <meta property="og:url" content="https://krystaltechhub.in/" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Krystal Tech Hub" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="Krystal Tech Hub | Industrial Automation & Power Solutions in India" />
+    <meta property="og:description" content="Powering Industries with advanced automation and electrical solutions. Expert engineering & installation services for factories and smart industries across India." />
+    <meta property="og:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Krystal Tech Hub - Industrial Automation Solutions" />
+    <meta property="og:url" content="https://krystaltechhub.in/" />
 
-    <!-- Twitter -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Krystal Tech Hub | Industrial Automation & Power Panels"
-    />
-    <meta
-      name="twitter:description"
-      content="Automation and electrical panel manufacturing for industrial excellence. Serving India with end-to-end solutions."
-    />
-    <meta
-      name="twitter:image"
-      content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
+    <meta name="twitter:site" content="@krystaltechhub" />
+    <meta name="twitter:title" content="Krystal Tech Hub | Industrial Automation & Power Panels" />
+    <meta name="twitter:description" content="Automation and electrical panel manufacturing for industrial excellence. Serving India with end-to-end solutions." />
+    <meta name="twitter:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+    <meta name="twitter:image:alt" content="Krystal Tech Hub - Industrial Automation Solutions" />
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -81,25 +70,54 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Schema Markup -->
+    <!-- Schema Markup - Organization & WebSite -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Krystal Tech Hub",
+        "alternateName": "KTH",
         "url": "https://krystaltechhub.in",
         "logo": "https://krystaltechhub.in/assets/img/krystaltechhub.jpg",
+        "description": "Krystal Tech Hub provides cutting-edge industrial automation, power panels, and electrical solutions across India.",
+        "foundingDate": "2023",
+        "founders": [
+          {"@type": "Person", "name": "Ayush Shukla"},
+          {"@type": "Person", "name": "Shatyam Shukla"}
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "G T Road, Handia, Ward No. 09, Near Manas Hall",
+          "addressLocality": "Prayagraj",
+          "addressRegion": "Uttar Pradesh",
+          "postalCode": "221503",
+          "addressCountry": "IN"
+        },
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+91-8808408802",
           "contactType": "Customer Service",
-          "areaServed": "IN"
+          "email": "info@krystaltechhub.in",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi"]
         },
         "sameAs": [
-          "https://www.facebook.com/your-page",
-          "https://twitter.com/your-profile",
-          "https://www.linkedin.com/company/krystaltechhub"
+          "https://www.linkedin.com/company/krystaltechhub",
+          "https://www.facebook.com/krystaltechhub"
         ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Krystal Tech Hub",
+        "url": "https://krystaltechhub.in",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://krystaltechhub.in/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
 

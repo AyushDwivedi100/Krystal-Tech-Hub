@@ -5,90 +5,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Primary Meta Tags -->
-    <title>
-      Contact Us - Krystal Tech Hub | Industrial Solutions in Prayagraj
-    </title>
-    <meta
-      name="description"
-      content="Get in touch with Krystal Tech Hub for expert industrial solutions, consulting, and services in Prayagraj, Uttar Pradesh. Contact us via email, phone, or visit our office."
-    />
-    <meta
-      name="keywords"
-      content="Krystal Tech Hub, industrial solutions, contact, Prayagraj, Uttar Pradesh, industrial projects, consulting"
-    />
+    <!-- Primary SEO Meta Tags -->
+    <title>Contact Us - Krystal Tech Hub | Industrial Solutions in Prayagraj, UP</title>
+    <meta name="description" content="Get in touch with Krystal Tech Hub for expert industrial automation, power panel, and electrical solutions in Prayagraj, Uttar Pradesh. Call +91-8808408802 or email us today." />
+    <meta name="keywords" content="Krystal Tech Hub contact, industrial solutions Prayagraj, automation services UP, electrical panels India, industrial consulting, power solutions contact" />
     <meta name="author" content="Krystal Tech Hub" />
     <meta name="robots" content="index, follow" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contact Us - Krystal Tech Hub" />
-    <meta
-      property="og:description"
-      content="Contact Krystal Tech Hub for industrial solutions and services in Prayagraj, Uttar Pradesh."
-    />
-    <meta
-      property="og:url"
-      content="https://www.krystaltechhub.in/contact.html"
-    />
-    <meta
-      property="og:image"
-      content="https://www.krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Contact Us - Krystal Tech Hub" />
-    <meta
-      name="twitter:description"
-      content="Reach out to Krystal Tech Hub for industrial consulting and solutions."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.krystaltechhub.in/assets/img/krystaltechhub.jpg"
-    />
+    <link rel="canonical" href="https://krystaltechhub.in/contact" />
 
     <!-- Favicon -->
-    <link
-      rel="icon"
-      href="assets/img/favicon/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png" />
 
-    <!-- Tailwind CSS CDN (load early for styles) -->
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- AOS CSS for animation on scroll -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Structured Data: Organization & ContactPoint in JSON-LD -->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Krystal Tech Hub" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:title" content="Contact Us - Krystal Tech Hub | Get Expert Industrial Solutions" />
+    <meta property="og:description" content="Contact Krystal Tech Hub for industrial automation and electrical solutions in Prayagraj, Uttar Pradesh. We're here to help!" />
+    <meta property="og:url" content="https://krystaltechhub.in/contact" />
+    <meta property="og:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@krystaltechhub" />
+    <meta name="twitter:title" content="Contact Us - Krystal Tech Hub | Industrial Solutions" />
+    <meta name="twitter:description" content="Reach out to Krystal Tech Hub for industrial consulting and automation solutions in India." />
+    <meta name="twitter:image" content="https://krystaltechhub.in/assets/img/krystaltechhub.jpg" />
+
+    <!-- Structured Data: ContactPage & LocalBusiness in JSON-LD -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Krystal Tech Hub",
-        "url": "https://www.krystaltechhub.in",
-        "logo": "https://www.krystaltechhub.in/assets/img/krystaltechhub.jpg",
-        "contactPoint": {
-          "@type": "ContactPoint",
+        "@type": "ContactPage",
+        "name": "Contact Krystal Tech Hub",
+        "description": "Get in touch with Krystal Tech Hub for industrial automation and electrical solutions.",
+        "url": "https://krystaltechhub.in/contact",
+        "mainEntity": {
+          "@type": "LocalBusiness",
+          "name": "Krystal Tech Hub",
+          "image": "https://krystaltechhub.in/assets/img/krystaltechhub.jpg",
+          "url": "https://krystaltechhub.in",
           "telephone": "+91-8808408802",
-          "contactType": "customer service",
-          "areaServed": "IN",
-          "availableLanguage": ["English", "Hindi"]
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "G T Road, Handia, Ward No. 09, Near Manas Hall",
-          "addressLocality": "Handia, Prayagraj",
-          "addressRegion": "Uttar Pradesh",
-          "postalCode": "221503",
-          "addressCountry": "IN"
+          "email": "info@krystaltechhub.in",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "G T Road, Handia, Ward No. 09, Near Manas Hall",
+            "addressLocality": "Prayagraj",
+            "addressRegion": "Uttar Pradesh",
+            "postalCode": "221503",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "25.3176",
+            "longitude": "82.0875"
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/krystaltechhub",
+            "https://www.facebook.com/krystaltechhub"
+          ]
         }
       }
     </script>

@@ -1,4 +1,15 @@
+# Robots.txt for Krystal Tech Hub
+# https://krystaltechhub.in
+
 User-agent: *
 Allow: /
 
+# Disallow admin and utility files
+Disallow: /contact-handler.php
+Disallow: /router.php
+
+# Sitemap location
 Sitemap: https://krystaltechhub.in/sitemap.xml
+
+# Crawl delay (optional - be gentle on server)
+Crawl-delay: 1
