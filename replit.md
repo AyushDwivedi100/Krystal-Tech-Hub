@@ -66,13 +66,22 @@ The following environment variables are configured for the contact form:
 - **Command**: `php -S 0.0.0.0:5000 router.php`
 
 ## Setup Notes
+
+### For Replit (Development)
 1. The PHP built-in server is configured to listen on 0.0.0.0:5000 for Replit compatibility
-2. The router.php handles:
-   - Clean URL routing
+2. The router.php handles clean URL routing for the development server
+
+### For Hostinger/Apache (Production)
+1. The .htaccess file handles all URL routing on Apache-based hosting
+2. It provides:
+   - Clean URL routing (/about -> about.php)
+   - Automatic redirects from .php/.html to clean URLs
    - Static file serving
-   - 404 error handling
-   - Redirects from .php/.html to clean URLs
-3. Contact form requires SMTP_PASSWORD to be set as a secret
+   - Custom 404 error page
+   - Compression and caching for performance
+   - Security headers
+3. After uploading to Hostinger, clear any server-side cache and browser cache
+4. Contact form requires SMTP_PASSWORD to be set in hosting environment variables
 
 ## Recent Changes
 - **December 1, 2025**: Initial Replit setup
