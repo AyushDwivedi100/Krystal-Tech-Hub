@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $smtpHost = getenv('SMTP_HOST') ?: 'smtp.gmail.com';
         $smtpUsername = getenv('SMTP_USERNAME') ?: 'krystaltechhub@gmail.com';
-        $smtpPassword = getenv('SMTP_PASSWORD');
+        $smtpPassword = getenv('SMTP_PASSWORD') ?: 'wywyktofecayexpu';
         $smtpPort = getenv('SMTP_PORT') ?: 587;
         $receiverEmail = getenv('RECEIVER_EMAIL') ?: 'dharshit265@gmail.com';
         
